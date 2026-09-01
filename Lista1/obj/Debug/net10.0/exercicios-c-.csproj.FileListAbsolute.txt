@@ -1,0 +1,14 @@
+C:\Users\arauj\source\repos\nicolenovoli\exercicios-c-\bin\Debug\net10.0\exercicios-c-.exe
+C:\Users\arauj\source\repos\nicolenovoli\exercicios-c-\bin\Debug\net10.0\exercicios-c-.deps.json
+C:\Users\arauj\source\repos\nicolenovoli\exercicios-c-\bin\Debug\net10.0\exercicios-c-.runtimeconfig.json
+C:\Users\arauj\source\repos\nicolenovoli\exercicios-c-\bin\Debug\net10.0\exercicios-c-.dll
+C:\Users\arauj\source\repos\nicolenovoli\exercicios-c-\bin\Debug\net10.0\exercicios-c-.pdb
+C:\Users\arauj\source\repos\nicolenovoli\exercicios-c-\obj\Debug\net10.0\exercicios-c-.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\arauj\source\repos\nicolenovoli\exercicios-c-\obj\Debug\net10.0\exercicios-c-.AssemblyInfoInputs.cache
+C:\Users\arauj\source\repos\nicolenovoli\exercicios-c-\obj\Debug\net10.0\exercicios-c-.AssemblyInfo.cs
+C:\Users\arauj\source\repos\nicolenovoli\exercicios-c-\obj\Debug\net10.0\exercicios-c-.csproj.CoreCompileInputs.cache
+C:\Users\arauj\source\repos\nicolenovoli\exercicios-c-\obj\Debug\net10.0\exercicios-c-.dll
+C:\Users\arauj\source\repos\nicolenovoli\exercicios-c-\obj\Debug\net10.0\refint\exercicios-c-.dll
+C:\Users\arauj\source\repos\nicolenovoli\exercicios-c-\obj\Debug\net10.0\exercicios-c-.pdb
+C:\Users\arauj\source\repos\nicolenovoli\exercicios-c-\obj\Debug\net10.0\exercicios-c-.genruntimeconfig.cache
+C:\Users\arauj\source\repos\nicolenovoli\exercicios-c-\obj\Debug\net10.0\ref\exercicios-c-.dll

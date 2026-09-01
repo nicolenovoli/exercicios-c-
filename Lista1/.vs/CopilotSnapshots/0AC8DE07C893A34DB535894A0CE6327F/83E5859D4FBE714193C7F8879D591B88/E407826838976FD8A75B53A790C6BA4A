@@ -1,0 +1,346 @@
+﻿// Exercício 1: Escreva um programa em C# que exiba a frase "Meu primeiro programa em C#".
+Console.WriteLine("Meu primeiro programa em C#");
+
+// Exercício 2: Escreva um programa em C# que exiba seu nome, idade e curso.
+Console.WriteLine("Nicole");
+Console.WriteLine("21");
+Console.WriteLine("Engenharia de Software");
+
+// Exercício 3: Escreva um programa em C# que exiba uma mensagem.
+string mensagem = "Mensagem";
+
+// Exercício 4: Escreva um programa em C# que exiba a ano atual.
+int anoAtual = 2026;
+
+Console.WriteLine("Estamos no ano de " + anoAtual);
+
+// Exercício 5: Escreva um programa em C# que exiba três mensagens.
+Console.WriteLine("Mensagem 1");
+Console.WriteLine("Mensagem 2");
+Console.WriteLine("Mensagem 3");
+
+// Exercício 6: Escreva um programa em C# que exiba idade, altura, peso e salário.
+int idade = 21;
+double altura = 1.63;
+double peso = 49.5;
+double salario = 33500.00;
+
+Console.WriteLine("Idade: " + idade);
+Console.WriteLine("Altura: " + altura);
+Console.WriteLine("Peso: " + peso);
+Console.WriteLine("Salário: " + salario);
+
+// Exercício 7: Escreva um programa em C# que exiba o resultado de uma operação matemática.
+
+int numero1 = 10;
+int numero2 = 5;
+int resultado = numero1 + numero2;
+Console.WriteLine("Resultado: " + resultado);
+
+resultado = numero1 - numero2;
+Console.WriteLine("Resultado: " + resultado);
+
+resultado = numero1 * numero2;
+Console.WriteLine("Resultado: " + resultado);
+
+resultado = numero1 / numero2;
+Console.WriteLine("Resultado: " + resultado);
+
+// Exercício 8: Escreva um programa em C# que exiba o resultado de números decimais em reais.
+double valor1 = 10.5;
+double valor2 = 5.2;
+double resultadoDecimal = valor1 + valor2;
+Console.WriteLine("Resultado: R$" + resultadoDecimal);
+
+// Exercício 9: Escreva um programa em C# que exiba o long populacaoBrasil com valor acima de 200 milhões.
+long populacaoBrasil = 210000000;
+Console.WriteLine("População do Brasil: " + populacaoBrasil);
+
+// Exercício 10: Escreva um programa em C# que exiba o um byte nivel com valor 10.
+byte nivel = 10;
+Console.WriteLine("Nível: " + nivel);
+
+// Exercício 11: Escreva um programa em C# que exiba o float temperatura = 36.5f.
+float temperatura = 36.5f;
+Console.WriteLine("Temperatura: " + temperatura);
+
+// Exercício 12: Escreva um programa em C# que exiba o dobro e o triplo de um número inteiro.
+int numero = 10;
+Console.WriteLine("Dobro: " + (numero * 2));
+Console.WriteLine("Triplo: " + (numero * 3));
+
+// Exercício 13: Escreva um programa em C# que exiba o "Olá, nome!".
+string nome = "Nicole";
+Console.WriteLine("Olá, " + nome + "!");
+
+// Exercício 14: Escreva um programa em C# que exiba nome e sobrenome e concatene em nomeCompleto.
+string sobrenome = "Novoli";
+string nomeCompleto = nome + " " + sobrenome;
+Console.WriteLine("Nome completo: " + nomeCompleto);
+
+// Exercício 15: Escreva um programa em C# que exiba o tamanho de uma string usando Length.
+string texto = "Olá, mundo!";
+Console.WriteLine("Tamanho da string: " + texto.Length);
+
+// Exercício 16: Escreva um programa em C# que exiba um texto em maiúsculo e minúsculo.
+Console.WriteLine("Texto em maiúsculo: " + texto.ToUpper());
+Console.WriteLine("Texto em minúsculo: " + texto.ToLower());
+
+// Exercício 17: Escreva um programa em C# que exiba um char com a inicial do seu nome e exiba.
+char inicial = nome[0];
+Console.WriteLine("Inicial do nome: " + inicial);
+
+// Exercício 18: Escreva um programa em C# que exiba uma frase e substitua uma palavra usando Replace().
+texto = texto.Replace("mundo", "universo");
+Console.WriteLine("Frase modificada: " + texto);
+
+// Exercício 19: Escreva um programa em C# que exiba int idade = 20 e bool maiorDeIdade verificando >= 18.
+int idade1 = 20;
+bool maiorDeIdade = idade1 >= 18;
+Console.WriteLine("Maior de idade: " + maiorDeIdade);
+
+// Exercício 20: Escreva um programa em C# que exiba o um bool temCartao e saldoSuficiente e verifique compra com &&.
+bool temCartao = true;
+bool saldoSuficiente = true;
+bool podeComprar = temCartao && saldoSuficiente;
+Console.WriteLine("Pode comprar: " + podeComprar);
+
+// Exercício 21: Escreva um programa em C# que exiba o um bool estaLogado = false e inverta usando !.
+bool estaLogado = false;
+Console.WriteLine("Está logado: " + estaLogado);
+Console.WriteLine("Está deslogado: " + !estaLogado);
+
+// Exercício 22: Escreva um programa em C# que exiba duas variáveis usando ==, !=, > e <.
+numero1 = 10;
+numero2 = 5;
+Console.WriteLine("numero1 == numero2: " + (numero1 == numero2));
+Console.WriteLine("numero1 != numero2: " + (numero1 != numero2));
+Console.WriteLine("numero1 > numero2: " + (numero1 > numero2));
+Console.WriteLine("numero1 < numero2: " + (numero1 < numero2));
+
+// Exercício 23: Escreva um programa em C# que exiba um casting implícito: int → long e float → double.
+int numeroInteiro = 10;
+long numeroLong = numeroInteiro; 
+float numeroFloat = 10.5f;
+double numeroDouble = numeroFloat; 
+Console.WriteLine("Casting implícito int → long: " + numeroLong);
+Console.WriteLine("Casting implícito float → double: " + numeroDouble);
+
+// Exercício 24: Escreva um programa em C# que exiba um casting explícito: double → int e long → short e observe a perda decimal.
+double numeroDouble2 = 10.7;
+int numeroInteiro2 = (int)numeroDouble2; 
+long numeroLong2 = 1000;
+short numeroShort = (short)numeroLong2;
+Console.WriteLine("Casting explícito double → int: " + numeroInteiro2);
+Console.WriteLine("Casting explícito long → short: " + numeroShort);
+
+// Exercício 25: Escreva um programa em C# que exiba a conversão de long para int usando casting explícito.
+long numeroLong3 = 1000;
+int numeroInteiro3 = (int)numeroLong3;
+Console.WriteLine("Casting explícito long → int: " + numeroInteiro3);
+
+// Exercício 26: Escreva um programa em C# que exiba a conversão de decimal para float.
+decimal numeroDecimal = 10.7m;
+float numeroFloat2 = (float)numeroDecimal;
+Console.WriteLine("Conversão de decimal para float: " + numeroFloat2);
+
+// Exercício 27: Escreva um programa em C# que exiba a conversão de string para int usando Convert e Parse.
+string stringNumero = "10";
+int numeroInteiro4 = Convert.ToInt32(stringNumero);
+int numeroInteiro5 = int.Parse(stringNumero);
+Console.WriteLine("Conversão de string para int (Convert): " + numeroInteiro4);
+Console.WriteLine("Conversão de string para int (Parse): " + numeroInteiro5);
+
+// Exercício 28: Escreva um programa em C# que exiba TryParse para converter '250' para int.
+string stringNumero2 = "250";
+int numeroInteiro6;
+bool conversaoBemSucedida = int.TryParse(stringNumero2, out numeroInteiro6);
+Console.WriteLine("Conversão de string para int (TryParse): " + (conversaoBemSucedida ? numeroInteiro6.ToString() : "Falha na conversão"));
+
+// Exercício 29: Escreva um programa em C# que exiba TryParse para tentar converter 'abc' e trate o resultado.
+string stringNumero3 = "abc";
+int numeroInteiro7;
+bool conversaoBemSucedida2 = int.TryParse(stringNumero3, out numeroInteiro7);
+Console.WriteLine("Conversão de string para int (TryParse): " + (conversaoBemSucedida2 ? numeroInteiro7.ToString() : "Falha na conversão"));
+
+// Exercício 30: Escreva um programa em C# que exiba string '500.75', converta para double e depois para int usando casting.
+string stringNumero4 = "500.75";
+double numeroDouble3 = Convert.ToDouble(stringNumero4);
+int numeroInteiro8 = (int)numeroDouble3;
+Console.WriteLine("Conversão de string para int (Casting): " + numeroInteiro8);
+
+// Exercício 31: Escreva um programa em C# que exiba três variáveis inteiras e exiba a média entre elas.
+int num1 = 10;
+int num2 = 20;
+int num3 = 30;
+double media = (num1 + num2 + num3) / 3.0;
+Console.WriteLine("Média dos números: " + media);
+
+// Exercício 32: Escreva um programa em C# que exiba um decimal representando um desconto e calcule o valor final de um produto.
+decimal desconto = 0.1m; 
+decimal precoOriginal = 100.0m;
+decimal valorFinal = precoOriginal - (precoOriginal * desconto);
+Console.WriteLine("Valor final do produto: " + valorFinal);
+
+// Exercício 33: Escreva um programa em C# que exiba cálculo da área de um retângulo (base * altura).
+double baseRetangulo = 10.0;
+double alturaRetangulo = 5.0;
+double areaRetangulo = baseRetangulo * alturaRetangulo;
+Console.WriteLine("Área do retângulo: " + areaRetangulo);
+
+// Exercício 34: Escreva um programa em C# que exiba um double representando a distância percorrida e outro para tempo. Calcule a velocidade média.
+double distancia = 100.0;
+double tempo = 2.0;
+double velocidadeMédia = distancia / tempo;
+Console.WriteLine("Velocidade média: " + velocidadeMédia);
+
+// Exercício 35: Escreva um programa em C# que exiba um char e verifique se ele é igual a 'A'.
+char letra = 'A';
+if (letra == 'A')
+{
+    Console.WriteLine("O caractere é igual a 'A'.");
+}
+else
+{
+    Console.WriteLine("O caractere não é igual a 'A'.");
+}
+
+// Exercício 36: Escreva um programa em C# que exiba uma string e exiba apenas os primeiros 3 caracteres usando Substring().
+string texto_2 = "Olá, mundo!";
+string primeiros3Caracteres = texto_2.Substring(0, 3);
+Console.WriteLine("Primeiros 3 caracteres: " + primeiros3Caracteres);
+
+// Exercício 37: Escreva um programa em C# que exiba uma string com espaços antes e depois e use Trim() para remover os espaços.
+string textoComEspacos = "  Olá, mundo!  ";
+string textoSemEspacos = textoComEspacos.Trim();
+Console.WriteLine("Texto sem espaços: " + textoSemEspacos);
+
+// Exercício 38: Escreva um programa em C# que exiba um número inteiro e exiba se ele é positivo ou negativo (usando bool).
+int numero_2 = -5;
+bool éPositivo = numero_2 > 0;
+Console.WriteLine("O número é positivo: " + éPositivo);
+
+// Exercício 39: Escreva um programa em C# que exiba uma variável bool que verifique se um número é par (numero % 2 == 0).
+int numero2_2 = 10;
+bool éPar = numero2_2 % 2 == 0;
+Console.WriteLine("O número é par: " + éPar);
+
+// Exercício 40: Escreva um programa em C# que exiba duas strings e compare se são iguais usando Equals().
+string string1 = "Olá, mundo!";
+string string2 = "Olá, mundo!";
+bool sãoIguais = string1.Equals(string2);
+Console.WriteLine("As strings são iguais: " + sãoIguais);
+
+// Exercício 41: Escreva um programa em C# que exiba um double e arredonde usando Math.Round().
+double numeroDouble = 5.67;
+double numeroArredondado = Math.Round(numeroDouble, 1);
+Console.WriteLine("Número arredondado: " + numeroArredondado);
+
+// Exercício 42: Escreva um programa em C# que exiba um número inteiro e converta para string usando ToString().
+int numero3 = 42;
+string stringNumero = numero3.ToString();
+Console.WriteLine("Número como string: " + stringNumero);
+
+// Exercício 43: Escreva um programa em C# que exiba uma string e verifique se ela contém uma palavra específica usando Contains().
+string texto_3 = "Olá, mundo!";
+bool contémPalavra = texto_3.Contains("mundo");
+Console.WriteLine("A string contém a palavra 'mundo': " + contémPalavra);
+
+// Exercício 44: Escreva um programa em C# que exiba uma string numérica e converta para double usando Convert.ToDouble().
+string stringNumerica = "123.45";
+double numeroConvertido = Convert.ToDouble(stringNumerica);
+Console.WriteLine("Número convertido: " + numeroConvertido);
+
+// Exercício 45: Escreva um programa em C# que exiba TryParse para validar entrada '1000'.
+string entrada = "1000";
+if (int.TryParse(entrada, out int numeroValidado))
+{
+    Console.WriteLine("Entrada válida. Número: " + numeroValidado);
+}
+else
+{
+    Console.WriteLine("Entrada inválida.");
+}
+
+// Exercício 46: Escreva um programa em C# que exiba TryParse para validar entrada 'dez'.
+string entrada2 = "dez";
+if (int.TryParse(entrada2, out int numeroValidado2))
+{
+    Console.WriteLine("Entrada válida. Número: " + numeroValidado2);
+}
+else
+{
+    Console.WriteLine("Entrada inválida.");
+}
+
+// Exercício 47: Escreva um programa em C# que exiba um float representando altura e converta para double.
+float altura = 1.75f;
+double alturaConvertida = Convert.ToDouble(altura);
+Console.WriteLine("Altura convertida: " + alturaConvertida);
+
+// Exercício 48: Escreva um programa em C# que exiba um um long muito grande e verifique o que acontece ao converter para int.
+long numeroLong = 2147483648L;
+int numeroInt = (int)numeroLong;
+Console.WriteLine("Número long convertido para int: " + numeroInt);
+
+// Exercício 49: Escreva um programa em C# que exiba uma string e verifique se ela contém determinada palavra usando Contains().
+string texto_4 = "Olá, mundo!";
+bool contémPalavra = texto_4.Contains("mundo");
+Console.WriteLine("A string contém a palavra 'mundo': " + contémPalavra);
+
+// Exercício 50: Escreva um programa em C# que exiba uma frase e substitua todas as letras 'a' por '@'.
+string frase = "Olá, mundo!";
+string fraseSubstituida = frase.Replace('a', '@');
+Console.WriteLine("Frase com substituição: " + fraseSubstituida);
+
+// Exercício 51: Escreva um programa em C# que exiba um bool ativo = true e exiba o valor invertido.
+bool ativo = true;
+Console.WriteLine("Valor original: " + ativo);
+Console.WriteLine("Valor invertido: " + !ativo);
+
+// Exercício 52: Escreva um programa em C# que exiba duas variáveis inteiras e verifique qual é maior usando operador >.
+int numero1 = 10;
+int numero2 = 20;
+bool numero1ÉMaior = numero1 > numero2;
+Console.WriteLine("O primeiro número é maior que o segundo: " + numero1ÉMaior);
+
+// Exercício 53: Escreva um programa em C# que exiba uma variável string vazia e verifique seu tamanho.
+string stringVazia = "";
+Console.WriteLine("Tamanho da string vazia: " + stringVazia.Length);
+
+// Exercício 54: Escreva um programa em C# que exiba um decimal e converta para int usando casting após Math.Round().
+decimal numeroDecimal = 123.45m;
+int numeroInteiro = (int)Math.Round(numeroDecimal);
+Console.WriteLine("Número convertido para int: " + numeroInteiro);
+
+// Exercício 55: Escreva um programa em C# que exiba um número e exiba sua raiz quadrada usando Math.Sqrt().
+double numero_3 = 16;
+double raizQuadrada = Math.Sqrt(numero_3);
+Console.WriteLine("Raiz quadrada de " + numero_3 + " é: " + raizQuadrada);
+
+// Exercício 56: Escreva um programa em C# que exiba uma string com números e some dois valores após conversão.
+string stringNumeros = "10 20";
+string[] numeros = stringNumeros.Split(' ');
+int soma = int.Parse(numeros[0]) + int.Parse(numeros[1]);
+Console.WriteLine("Soma dos números: " + soma);
+
+// Exercício 57: Escreva um programa em C# que exiba uma variável byte e tente atribuir um valor maior que 255 (observe o erro).
+byte valorByte = 255;
+Console.WriteLine("Valor da variável byte: " + valorByte);
+
+
+// Exercício 58: Escreva um programa em C# que exiba um int e converta para long implicitamente.
+int numeroInt = 1000;
+long numeroLong = numeroInt; 
+Console.WriteLine("Número int convertido para long: " + numeroLong);
+
+// Exercício 59: Escreva um programa em C# que exiba um double e converta para float explicitamente.
+double numeroDouble = 123.45;
+float numeroFloat = (float)numeroDouble; 
+Console.WriteLine("Número double convertido para float: " + numeroFloat);
+
+// Exercício 60: Escreva um programa em C# que exiba um mini programa que declare nome, idade e salario e exiba tudo formatado com interpolação ($" ").
+string nome = "João";
+int idade = 30;
+double salario = 5000.00;
+Console.WriteLine($"Nome: {nome}, Idade: {idade}, Salário: {salario:F2}");
